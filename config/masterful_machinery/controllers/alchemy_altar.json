@@ -1,0 +1,16 @@
+{
+    "controllerId": "alchemyaltar",
+    "name": "Alchemy Altar",
+    "ports": [
+        {
+            "type": "masterfulmachinery:items",
+            "textureOverride": "minecraft:block/smooth_stone",
+            "name": "Item",
+            "id": "item",
+            "data": {
+                "rows": 1,
+                "columns": 1
+            }
+        }
+    ]
+}

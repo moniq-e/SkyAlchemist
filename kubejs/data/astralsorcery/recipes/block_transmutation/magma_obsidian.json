@@ -1,0 +1,20 @@
+{
+  "type": "astralsorcery:block_transmutation",
+  "input": [
+    {
+      "block": "minecraft:magma_block",
+      "display": {
+        "item": "minecraft:magma_block",
+        "count": 1
+      }
+    }
+  ],
+  "output": {
+    "block": "mysticalagradditions:nether_inferium_ore"
+  },
+  "display": {
+    "item": "mysticalagradditions:nether_inferium_ore",
+    "count": 1
+  },
+  "starlight": 150.0
+}

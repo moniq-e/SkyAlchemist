@@ -1,0 +1,214 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  path = kubejs/assets/kubejs/textures/main/skyalchemistbg.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-left
+  x = 80
+  action = movebutton
+  y = -109
+}
+
+customization {
+  identifier = %id=400322%
+  width = 171
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/main/multi.png
+  backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-centered
+  x = -85
+  action = movebutton
+  y = -109
+}
+
+customization {
+  identifier = %id=400382%
+  width = 171
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Options...
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/main/options.png
+  backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -251
+  action = movebutton
+  y = -109
+}
+
+customization {
+  identifier = %id=502382%
+  width = 171
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/main/exit.png
+  backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-left
+  x = 80
+  action = movebutton
+  y = -136
+}
+
+customization {
+  identifier = %id=400298%
+  width = 171
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/main/single.png
+  backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-right
+  x = -251
+  action = movebutton
+  y = -136
+}
+
+customization {
+  identifier = %id=400346%
+  width = 171
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Mods (%loadedmods%/%totalmods%)
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/main/mods.png
+  backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = opencustomgui
+  backgroundhovered = kubejs/assets/kubejs/textures/main/brpacks.png
+  label = Modpack Authors
+  hoverlabel = 
+  x = -85
+  width = 171
+  actionid = a0b45b63-1762-4e21-8205-30d9fc6a24511625074382882
+  action = addbutton
+  y = -136
+  backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
+  value = cred
+  height = 24
+}
+
+customization {
+  path = kubejs/assets/kubejs/textures/main/about.png
+  orientation = bottom-left
+  x = 0
+  width = 224
+  action = addtexture
+  actionid = 6aa8600e-04d6-454e-8794-d4517298e4011625073892316
+  y = -14
+  height = 13
+}
+

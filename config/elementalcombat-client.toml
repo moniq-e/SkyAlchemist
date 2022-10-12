@@ -1,0 +1,13 @@
+#If true, displays combat data HUD on the top side.
+isTop = false
+#If true, displays combat data HUD on the left side.
+isLeft = false
+#The multiplier of the combat data HUD size.
+#Range: 0.25 ~ 4.0
+scale = 1.0
+#The number of ticks until the defense data iterates in any HUD element. 20 ticks are about 1 second.
+#Range: 1 ~ 100
+ticks = 20
+#Activate/Deactivate WAILA/HWYLA plugin.
+activateWaila = true
+

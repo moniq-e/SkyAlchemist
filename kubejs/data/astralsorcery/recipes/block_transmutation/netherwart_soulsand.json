@@ -1,0 +1,20 @@
+{
+  "type": "astralsorcery:block_transmutation",
+  "input": [
+    {
+      "block": "minecraft:nether_wart_block",
+      "display": {
+        "item": "minecraft:nether_wart_block",
+        "count": 1
+      }
+    }
+  ],
+  "output": {
+    "block": "minecraft:melon"
+  },
+  "display": {
+    "item": "minecraft:melon",
+    "count": 1
+  },
+  "starlight": 400.0
+}

@@ -1,0 +1,20 @@
+{
+    "type": "astralsorcery:block_transmutation",
+    "input": [
+      {
+        "block": "minecraft:stone_bricks",
+        "display": {
+          "item": "minecraft:stone_bricks",
+          "count": 1
+        }
+      }
+    ],
+    "output": {
+      "block": "minecraft:lava"
+    },
+    "display": {
+      "item": "minecraft:lava_bucket",
+      "count": 1
+    },
+    "starlight": 400.0
+  }

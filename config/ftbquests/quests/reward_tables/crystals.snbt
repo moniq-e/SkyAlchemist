@@ -1,0 +1,620 @@
+{
+	id: "32E265EF0D090D54"
+	order_index: 0
+	title: "crystals"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.discidia"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:armara"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.armara"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:vicio"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.vicio"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:aevitas"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.aevitas"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:evorsio"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.evorsio"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:lucerna"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.lucerna"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:mineralis"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.mineralis"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:horologium"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.horologium"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:octans"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.octans"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:bootes"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.bootes"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:fornax"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.fornax"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:pelotrio"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.pelotrio"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+	]
+}

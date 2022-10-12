@@ -1,0 +1,219 @@
+{
+	id: "3477790D1DED1BD5"
+	order_index: 1
+	title: "pacificeggs"
+	icon: {
+		id: "minecraft:egg"
+		Count: 1b
+		ForgeCaps: {
+			"elementalcombat:elemental_defense": {
+				enchantment_data: { }
+				defense_style: { }
+				defense_element: { }
+			}
+			"elementalcombat:attack_data": {
+				attack_style: "hit"
+				attack_element: "normal"
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:chicken_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:cow_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:fox_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:horse_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:ocelot_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:parrot_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:pig_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:rabbit_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:sheep_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:turtle_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:villager_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						enchantment_data: { }
+						defense_style: { }
+						defense_element: { }
+					}
+					"elementalcombat:attack_data": {
+						attack_style: "hit"
+						attack_element: "normal"
+					}
+				}
+			}
+		}
+	]
+}

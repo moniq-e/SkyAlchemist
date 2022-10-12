@@ -1,0 +1,50 @@
+type = menu
+
+customization-meta {
+  identifier = cred
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  path = kubejs/assets/kubejs/textures/main/teamsky.png
+  action = texturizebackground
+}
+
+customization {
+  orientation = top-right
+  buttonaction = openlink
+  x = -181
+  width = 181
+  actionid = ca526f7a-11ba-4715-914b-5d7abca5b3ee1625068374882
+  action = addbutton
+  y = 8
+  backgroundhovered = kubejs/assets/kubejs/textures/main/discord.png
+  label = 
+  backgroundnormal = kubejs/assets/kubejs/textures/main/discord.png
+  value = https://discord.gg/K73bSTJp3V
+  height = 62
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 9
+  width = 187
+  actionid = 282b6166-7903-470f-8d57-b50e2282826e1625068441683
+  action = addbutton
+  y = 10
+  backgroundhovered = kubejs/assets/kubejs/textures/main/bisect.png
+  label = 
+  backgroundnormal = kubejs/assets/kubejs/textures/main/bisect.png
+  value = https://www.bisecthosting.com/BrPacks25
+  height = 60
+}
+

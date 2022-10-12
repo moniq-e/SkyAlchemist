@@ -1,0 +1,26 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "tag": "forge:dusts/gold"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:gunpowder"
+    }
+  ],
+  "output": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "syphon": 1000,
+  "ticks": 200,
+  "upgradeLevel": 3
+}

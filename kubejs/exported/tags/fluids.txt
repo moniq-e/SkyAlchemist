@@ -1,0 +1,18 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 24, 2021 11:25:39 AM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- mahoutsukai:murky_still
+- mahoutsukai:murky_flow
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight

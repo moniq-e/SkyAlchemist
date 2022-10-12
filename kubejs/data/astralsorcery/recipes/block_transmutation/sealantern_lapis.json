@@ -1,0 +1,20 @@
+{
+  "type": "astralsorcery:block_transmutation",
+  "input": [
+    {
+      "block": "minecraft:smooth_stone",
+      "display": {
+        "item": "minecraft:smooth_stone",
+        "count": 1
+      }
+    }
+  ],
+  "output": {
+    "block": "minecraft:lapis_ore"
+  },
+  "display": {
+    "item": "minecraft:lapis_ore",
+    "count": 1
+  },
+  "starlight": 400.0
+}
