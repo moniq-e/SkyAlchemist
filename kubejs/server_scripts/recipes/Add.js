@@ -18,7 +18,7 @@ onEvent('recipes', e => {
         'A': 'minecraft:diamond',
         'B': 'minecraft:nether_star',
         'C': 'minecraft:iron_ingot',
-        'D': 'item:minecraft:stick'
+        'D': 'minecraft:stick'
     })
 
     //mystical

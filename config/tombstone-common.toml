@@ -1,8 +1,6 @@
 
 #Options related to player's death
 [player_death]
-	#Whether to log the positions of players' graves [false/true|default:true]
-	log_player_grave = true
 	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_mob_on_grave_recovery = 0
@@ -18,14 +16,12 @@
 	sniffer_range = 5
 	#Graveless Areas
 	no_grave_location = ["0, -300, 0, minecraft:overworld, 20"]
-	#Knowledge of Death loss why dying [0..500|default:0]
+	#Knowledge of Death loss on death [0..500|default:0]
 	#Range: 0 ~ 500
 	knowledge_loss = 0
 	#The percentage of items that are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
-	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
-	graves_bypass_griefing_rules = true
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
@@ -79,14 +75,9 @@
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = -1
-	#Fishing treasures can only be found in open water [false/true|default:true]
-	fishing_treasure_in_open_water = true
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_death = -1
-	#Cooldown in minutes to use the perk Tomb Raider [60..1440|default:60]
-	#Range: 60 ~ 1440
-	cooldown_tomb_raiding = 60
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
@@ -134,26 +125,23 @@
 [decorative_grave]
 	#Allows to replace a grave plate already set on a grave [false/true|default:true]
 	can_replace_grave_plate = true
-	#The structures that can't be discovered by lost tablets
-	lost_tablet_denied_structures = []
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
 	chance_pray_reward = 40
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_soul = 100
-	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
-	#Range: 5 ~ 60000
-	duration_voodoo_poppet_effects = 60
-	#Time in minutes to check if a soul appears on a grave [30..10000|default:30]
-	#Range: 30 ~ 10000
+	#Time in minutes to check if a soul appears on a grave [1..10000|default:30]
+	#Range: 1 ~ 10000
 	time_soul = 30
-	#Allows lost tablets to find locations outside the current world [false/true|default:true]
-	lost_tablet_search_outside_world = true
-	#Allows lost tablets to find modded structures [false/true|default:true]
-	lost_tablet_modded_structure = true
 	#Allows the merchant grave gardian [false/true|default:true]
 	allow_grave_gardian = true
+	#Minimum distance between Grave Gardians to spawn [10..200|default:100]
+	#Range: 10 ~ 200
+	distance_between_grave_guardian = 100
+	#Time in minutes for a Grave Guardian to restock its offers [1..1000|default:60]
+	#Range: 1 ~ 1000
+	restock_time_grave_guardian = 60
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -168,8 +156,6 @@
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
-	#Restricts the effect of Shadow Step to players [false/true|default:true]
-	restrict_shadow_step_to_player = true
 	#Shadow Step is disabled for 10 seconds by opening a chest [false/true|default:true]
 	nerf_shadow_step_open_chest = true
 
@@ -177,8 +163,6 @@
 [recovery]
 	#Enables to backup automatically players [false/true|default:true]
 	recovery_player_enable = true
-	#Enables to backup automatically dead familiars [false/true|default:true]
-	recovery_familiar_enable = true
 	#Time in minutes between players' backups [10..1000|default:40]
 	#Range: 5 ~ 1000
 	recovery_player_timer = 19
@@ -187,6 +171,8 @@
 	#Maximum number of backups per player [5..100|default:15]
 	#Range: 5 ~ 100
 	recovery_player_max_saves = 15
+	#Log when players are automatically back up [false/true|default:false]
+	log_auto_backup = false
 
 #Allows to change the chance to drop some items
 [loot]
@@ -210,13 +196,32 @@
 	chance_soul_receptacle_on_boss = 50
 	#Entities that can't found as loot in a Familiar Receptacle
 	unhandled_tameable_entities = []
+	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [1..200000|default:2000]
+	#Range: 1 ~ 200000
+	max_xp_lost_page = 2000
 
 #Allows to enable some features related to others mods
 [compatibility]
 	#Keeps the cosmetic armor when you die [false/true|default:true]
 	keep_cosmetic_armor = true
-	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
-	allow_curio_auto_equip = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
+	curio_auto_equip = true
+
+#For settings related to magic items
+[magic_item]
+	#Damaged items can be recycled with the Book of Recycling
+	can_recycle_damaged_item = true
+	#The items that can't be recycled by the Book of Recycling
+	denied_item_to_recycle = []
+	#Allows lost tablets to find locations outside the current world [false/true|default:true]
+	lost_tablet_search_outside_world = true
+	#Allows lost tablets to find modded structures [false/true|default:true]
+	lost_tablet_modded_structure = true
+	#The structures that can't be discovered by lost tablets
+	lost_tablet_denied_structures = []
+	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
+	#Range: 5 ~ 60000
+	duration_voodoo_poppet_effects = 60
 

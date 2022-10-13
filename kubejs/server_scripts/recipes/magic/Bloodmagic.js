@@ -1,8 +1,8 @@
 onEvent('recipes', e => {
-    e.recipes.bloodmagic.array('minecraft:gunpowder', 'tag:items:minecraft:coals', 'minecraft:flint').texture('bloodmagic:textures/models/alchemyarrays/spikearray.png')
-    e.recipes.bloodmagic.array('minecraft:gunpowder', 'tag:items:minecraft:coals', 'minecraft:flint').texture('bloodmagic:textures/models/alchemyarrays/magnetismsigil.png')
-    e.recipes.bloodmagic.array('minecraft:leather', 'tag:items:minecraft:coals', 'minecraft:rotten_flesh').texture('bloodmagic:textures/models/alchemyarrays/lavasigil.png')
-    e.recipes.bloodmagic.array(Item.of('2x minecraft:ink_sac'), 'minecraft:leather', 'tag:items:minecraft:coals').texture('bloodmagic:textures/models/alchemyarrays/bindingarray.png')
+    e.recipes.bloodmagic.array('minecraft:gunpowder', '#minecraft:coals', 'minecraft:flint').texture('bloodmagic:textures/models/alchemyarrays/spikearray.png')
+    e.recipes.bloodmagic.array(Item.of('4x minecraft:feather'), 'minecraft:stick', 'minecraft:bone_meal').texture('bloodmagic:textures/models/alchemyarrays/magnetismsigil.png')
+    e.recipes.bloodmagic.array('minecraft:leather', '#minecraft:coals', 'minecraft:rotten_flesh').texture('bloodmagic:textures/models/alchemyarrays/lavasigil.png')
+    e.recipes.bloodmagic.array(Item.of('2x minecraft:ink_sac'), 'minecraft:leather', '#minecraft:coals').texture('bloodmagic:textures/models/alchemyarrays/bindingarray.png')
     e.recipes.bloodmagic.array('mana-and-artifice:aum', 'minecraft:poppy', 'minecraft:bone_meal').texture('bloodmagic:textures/models/alchemyarrays/voidsigil.png')
     e.recipes.bloodmagic.array('mana-and-artifice:chimerite_gem', 'minecraft:emerald', 'minecraft:diamond').texture('bloodmagic:textures/models/alchemyarrays/spikearray.png')
     e.recipes.bloodmagic.array('minecraft:snowball', 'minecraft:clay_ball', 'minecraft:quartz').texture('bloodmagic:textures/models/alchemyarrays/bindingarray.png')

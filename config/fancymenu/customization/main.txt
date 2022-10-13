@@ -9,32 +9,22 @@ customization-meta {
 }
 
 customization {
-  action = setscale
-  scale = 2
-}
-
-customization {
   path = kubejs/assets/kubejs/textures/main/skyalchemistbg.png
   action = texturizebackground
 }
 
 customization {
-  identifier = %id=604382%
-  action = hidebutton
+  action = setscale
+  scale = 2
 }
 
 customization {
-  identifier = %id=376382%
-  action = hidebutton
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = bottom-left
   x = 80
   action = movebutton
@@ -42,27 +32,34 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 171
   action = resizebutton
   height = 24
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = kubejs/assets/kubejs/textures/main/multi.png
   backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = sethoverlabel
   label = 
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = bottom-centered
   x = -85
   action = movebutton
@@ -70,33 +67,29 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 171
   action = resizebutton
   height = 24
 }
 
 customization {
-  identifier = %id=400382%
-  action = setbuttonlabel
-  value = Options...
-}
-
-customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = kubejs/assets/kubejs/textures/main/options.png
   backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = sethoverlabel
   label = 
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = bottom-right
   x = -251
   action = movebutton
@@ -104,27 +97,34 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 171
   action = resizebutton
   height = 24
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = kubejs/assets/kubejs/textures/main/exit.png
   backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = sethoverlabel
   label = 
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = bottom-left
   x = 80
   action = movebutton
@@ -132,27 +132,29 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 171
   action = resizebutton
   height = 24
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = kubejs/assets/kubejs/textures/main/single.png
   backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = sethoverlabel
   label = 
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = bottom-right
   x = -251
   action = movebutton
@@ -160,42 +162,119 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 171
   action = resizebutton
   height = 24
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
   value = Mods (%loadedmods%/%totalmods%)
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = kubejs/assets/kubejs/textures/main/mods.png
   backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = sethoverlabel
   label = 
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 207
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = c2161950-a2a6-4e14-a05c-176f212a63411665679700988
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 7d0cec04-5ed2-4a98-9a84-aeae14d9e9aa1665679700996
+  y = 281
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 454
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 8b62a545-801d-4afe-aba8-9adcfa95fdec1665679700996
+  y = 303
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 444
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c47aca95-fa84-4c4f-b645-616d3b0eaaaf1665679700997
+  y = 180
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 204
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 4777c29c-843f-4d80-a266-042f6a6705c61665679700997
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = d9e4b30e-cf03-4db7-998c-068b767b64311665679700998
+  y = 0
+  height = 30
+}
+
+customization {
   orientation = bottom-centered
+  restartbackgroundanimations = true
   buttonaction = opencustomgui
   backgroundhovered = kubejs/assets/kubejs/textures/main/brpacks.png
   label = Modpack Authors
+  loopbackgroundanimations = true
   hoverlabel = 
-  x = -85
+  x = -84
   width = 171
   actionid = a0b45b63-1762-4e21-8205-30d9fc6a24511625074382882
   action = addbutton
-  y = -136
+  y = -135
   backgroundnormal = kubejs/assets/kubejs/textures/main/skyalchemistbutton.png
   value = cred
   height = 24

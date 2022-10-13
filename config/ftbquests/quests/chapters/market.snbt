@@ -1,43 +1,17 @@
 {
 	id: "7BB0CC1C215007A4"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "market"
 	title: "Market!"
-	icon: {
-		id: "kubejs:filosofal_shard"
-		Count: 1b
-		ForgeCaps: {
-			"elementalcombat:elemental_defense": {
-				enchantment_data: { }
-				defense_style: { }
-				defense_element: { }
-			}
-			"elementalcombat:attack_data": {
-				attack_style: "hit"
-				attack_element: "normal"
-			}
-		}
-	}
+	icon: "kubejs:filosofal_shard"
+	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		title: "Change Filosofal Shards to coins"
-		icon: {
-			id: "kubejs:filosofal_shard"
-			Count: 1b
-			ForgeCaps: {
-				"elementalcombat:elemental_defense": {
-					enchantment_data: { }
-					defense_style: { }
-					defense_element: { }
-				}
-				"elementalcombat:attack_data": {
-					attack_style: "hit"
-					attack_element: "normal"
-				}
-			}
-		}
+		icon: "kubejs:filosofal_shard"
+		disable_toast: true
 		x: 0.0d
 		y: 0.0d
 		shape: "diamond"
@@ -48,6 +22,7 @@
 			{
 				id: "0AB3149A9663CE27"
 				type: "checkmark"
+				disable_toast: true
 			}
 			{
 				id: "13AB7E0CBA1D655B"
@@ -72,7 +47,7 @@
 		]
 		rewards: [
 			{
-				id: "35E3751DB2F270BE"
+				id: "6A5AC5C6CFF3AB03"
 				type: "command"
 				title: "Repeatable"
 				icon: {
@@ -90,14 +65,32 @@
 						}
 					}
 				}
-				auto: "enabled"
+				auto: "invisible"
 				command: "/ftbquests change_progress @p reset 506E0638B348F20C"
 				player_command: false
 			}
 			{
-				id: "20FA2F3C6E73B7FA"
-				type: "ftbmoney:money"
-				ftb_money: 1L
+				id: "170BBB400EC142F6"
+				type: "command"
+				title: "Filosofal Coin"
+				icon: {
+					id: "kubejs:filosofal_shard"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							enchantment_data: { }
+							defense_style: { }
+							defense_element: { }
+						}
+						"elementalcombat:attack_data": {
+							attack_style: "hit"
+							attack_element: "normal"
+						}
+					}
+				}
+				auto: "enabled"
+				command: "/ftbmoney add @p 1"
+				player_command: false
 			}
 		]
 	}]
