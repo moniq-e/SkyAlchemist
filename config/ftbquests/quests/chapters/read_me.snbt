@@ -21,5 +21,27 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "The Basics"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Só o Básico"
+		description: [
+			"In this modpack, the main way to collect starting resources, such as ores and others, is using &bStarlight Transmutation&f from &bAstral Sorcery&f and &cAlchemy Array&f from &4Blood Magic&f, so keep an eye out for &aJEI&f recipes that use these processes."
+			""
+			"================================="
+			""
+			"Neste modpack, a principal forma de coletar recursos iniciais, como minérios e outros, é utilizando a &bStarlight Transmutation&f do &bAstral Sorcery&f e o &cAlchemy Array&f do &4Blood Magic&f, então fique de olho nas receitas do &aJEI&f que utilizam estes processos."
+		]
+		id: "1E53E1E6F7F22896"
+		tasks: [{
+			id: "656439A17A263511"
+			type: "checkmark"
+		}]
+		rewards: [{
+			id: "41BDEB1FD03A3B68"
+			type: "xp_levels"
+			xp_levels: 1
+		}]
+	}]
 }

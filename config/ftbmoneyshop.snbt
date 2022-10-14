@@ -38,8 +38,9 @@
 				}
 				{
 					item: {
-						id: "pyromancer:unburneds_sapling"
+						id: "enigmaticlegacy:earth_heart"
 						Count: 1b
+						tag: { }
 						ForgeCaps: {
 							"elementalcombat:elemental_defense": {
 								enchantment_data: { }
@@ -52,7 +53,7 @@
 							}
 						}
 					}
-					buy: 8L
+					buy: 2L
 				}
 			]
 		}

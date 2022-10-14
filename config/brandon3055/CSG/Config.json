@@ -1,8 +1,0 @@
-{
-  "inventory": {
-    "0:8": "{id:\"enigmaticlegacy:enigmatic_amulet\",Count:1b,tag:{AssignedColor:0.4f,Inscription:\"Tanjirou_TK\"}}",
-    "0:6": "{id:\"theoneprobe:probenote\",Count:1b}",
-    "0:7": "{id:\"enigmaticlegacy:cursed_ring\",Count:1b}"
-  },
-  "wipeBlacklist": []
-}

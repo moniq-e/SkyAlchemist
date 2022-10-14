@@ -3,23 +3,12 @@
 	group: ""
 	order_index: 1
 	filename: "the_alchemy_basics"
-	title: "The Alchemy Basics"
+	title: "The Alchemical Plan"
 	icon: {
 		id: "astralsorcery:rock_collector_crystal"
 		Count: 1b
 		tag: {
 			astralsorcery: { }
-		}
-		ForgeCaps: {
-			"elementalcombat:elemental_defense": {
-				enchantment_data: { }
-				defense_style: { }
-				defense_element: { }
-			}
-			"elementalcombat:attack_data": {
-				attack_style: "hit"
-				attack_element: "normal"
-			}
 		}
 	}
 	default_quest_shape: ""
@@ -1584,6 +1573,17 @@
 			y: -1.5d
 			shape: "square"
 			subtitle: "Poder Pyro"
+			description: [
+				"If you need help, you can check the mod page:"
+				""
+				"&9https://www.curseforge.com/minecraft/mc-mods/pyromancer"
+				""
+				"================================="
+				""
+				"Se precisar de ajuda, pode consultar a página do mod:"
+				""
+				"&9https://www.curseforge.com/minecraft/mc-mods/pyromancer"
+			]
 			dependencies: ["3D9D8856BBE3FBDD"]
 			id: "6A4AE875DFA11E2F"
 			tasks: [{
@@ -3053,16 +3053,17 @@
 			}]
 		}
 		{
+			title: "&6Pigmen Legion"
 			x: -4.5d
 			y: -4.5d
 			shape: "diamond"
 			subtitle: "Obtained by killing Wither"
 			description: [
-				"Use it in a Nether Reactor structure with a beacon in the center, and battle till you die!"
+				"Use it in a Nether Reactor structure with a beacon in the center, start the &6Pigmen Legion&f and battle till you die!"
 				""
 				"================================="
 				""
-				"Use isto em um Nether Reactor (pesquise para informações) com um Sinalizador no centro e batalhe até sua morte!"
+				"Use isto em um Nether Reactor (pesquise para informações) com um Sinalizador (Beacon) no centro, comece a &6Pigmen Legion&f e batalhe até sua morte!"
 			]
 			dependencies: ["0DA5B4A6036CA593"]
 			size: 1.3d
@@ -3092,6 +3093,13 @@
 			y: -6.0d
 			shape: "diamond"
 			subtitle: "Make Netherite easily"
+			description: [
+				"Dropped from any pigmen from Pigmen Legion"
+				""
+				"================================="
+				""
+				"Dropado de qualquer pigmen da Pigmen Legion"
+			]
 			dependencies: ["505BC95A4F512713"]
 			size: 1.3d
 			id: "66718F627875D45C"
@@ -5426,22 +5434,8 @@
 			tasks: [{
 				id: "4934ED0D1F293E72"
 				type: "kill"
-				title: "Kill the Ghast Cow"
-				icon: {
-					id: "minecraft:ghast_tear"
-					Count: 1b
-					ForgeCaps: {
-						"elementalcombat:elemental_defense": {
-							enchantment_data: { }
-							defense_style: { }
-							defense_element: { }
-						}
-						"elementalcombat:attack_data": {
-							attack_style: "hit"
-							attack_element: "normal"
-						}
-					}
-				}
+				title: "Kill the &eGhast Cow"
+				icon: "minecraft:ghast_tear"
 				entity: "ghastcow:ghast_cow"
 				value: 1L
 			}]
@@ -5452,23 +5446,9 @@
 			}]
 		}
 		{
-			icon: {
-				id: "krayscandles:candle_soy"
-				Count: 1b
-				ForgeCaps: {
-					"elementalcombat:elemental_defense": {
-						enchantment_data: { }
-						defense_style: { }
-						defense_element: { }
-					}
-					"elementalcombat:attack_data": {
-						attack_style: "hit"
-						attack_element: "normal"
-					}
-				}
-			}
-			x: 0.0d
-			y: 12.0d
+			icon: "krayscandles:candle_soy"
+			x: 3.0d
+			y: 3.0d
 			shape: "diamond"
 			description: [
 				"Visit the full tutorial of this mod:"
@@ -5484,7 +5464,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["3D9D8856BBE3FBDD"]
-			size: 1.3d
 			id: "14C4426D5C21A868"
 			tasks: [{
 				id: "25E13CD878F8A41B"
@@ -5887,6 +5866,43 @@
 				id: "0D188517D2211220"
 				type: "ftbmoney:money"
 				ftb_money: 2L
+			}]
+		}
+		{
+			title: "A Handful Boss"
+			x: -6.0d
+			y: -7.5d
+			shape: "hexagon"
+			subtitle: "Um Chefe difícil de lidar"
+			dependencies: ["505BC95A4F512713"]
+			size: 1.5d
+			id: "41D1C0E1A5534EA6"
+			tasks: [{
+				id: "10CFEEFE69E943B1"
+				type: "kill"
+				title: "Kill Unburned"
+				icon: {
+					id: "pyromancer:unburned_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							enchantment_data: { }
+							defense_style: { }
+							defense_element: { }
+						}
+						"elementalcombat:attack_data": {
+							attack_style: "hit"
+							attack_element: "normal"
+						}
+					}
+				}
+				entity: "pyromancer:unburned"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7FCFE04810FB72A7"
+				type: "ftbmoney:money"
+				ftb_money: 8L
 			}]
 		}
 	]
